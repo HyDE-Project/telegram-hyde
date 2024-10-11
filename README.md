@@ -34,7 +34,7 @@ To integrate this template, add the file `/telegram.dcol` to either of the follo
 
 2. **Wallbash Generation (1st part column)**:
     ```sh
-    ${cacheDir}/landing/hyprpanel_wallbash.json
+    ${cacheDir}/landing/wallbash-telegram.sh
     ```
     This command generates the `wallbash-telegram.sh` file.
 
