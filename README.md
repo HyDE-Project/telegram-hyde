@@ -13,10 +13,21 @@ HyDE's wallbash template for Telegram.
 
 ### Integrating into HyDE
 
-To integrate this template, add the file `/telegram.dcol` to either of the following directories:
+To integrate this template, 
+
+1. Add the file `/telegram.dcol` to either of the following directories:
 
 - `~/.config/hyde/wallbash/Wall-Ways`
 - `~/.config/hyde/wallbash/Wall-Dcol`
+
+2. Copy the `./wallbash.telegram.sh` to $PATH
+
+3. Using telegram's GUI add the `Wallbash.tdesktop-theme` file as a theme. 
+- Navigate to **Settings** > **Chat Settings** > **Chat wallpaper** > **Choose from file** choose ` ~/.cache/hyde/landing/Wallbash.tdesktop-theme`
+
+![Integrating to telegram](assets/howto.png)
+
+
 
 #### Difference Between Wall-Ways and Wall-Dcol
 

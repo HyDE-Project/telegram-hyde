@@ -114,9 +114,9 @@ create_palette() {
 
     cd "${pre}" || exit 1
 
-    zip -q "hyde.tdesktop-theme" colors.tdesktop-theme background.jpg
+    zip -q "${wallbashTheme}" colors.tdesktop-theme background.jpg
 
-    cp "hyde.tdesktop-theme" "${cacheDir}/landing/" || {
+    cp "${wallbashTheme}" "${cacheDir}/landing/" || {
         printf '\e[1;31m::\e[0m \e[1;37mFailed to copy theme file\e[0m\n'
         exit 1
     }
@@ -128,6 +128,7 @@ create_palette() {
 }
 
 main() {
+    wallbashTheme="Wallbash.tdesktop-theme"
     prepare && create_palette 
 }
 
