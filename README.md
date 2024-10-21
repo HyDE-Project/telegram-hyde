@@ -58,7 +58,14 @@ To integrate this template,
 ## Thanks
 
 - Special thanks to [Guillaume Boehm](https://github.com/guillaumeboehm/wal-telegram) for the awesome script.
+- This is a modified version of  https://codeberg.org/thirtysix/walogram/src/branch/master/walogram
+ that works for HyDE
+- Walogram is licensed under the[ MIT/X Consortium License](https://opensource.org/licenses/MIT).
+
+# TODO 
+- [ ] Cleanup and only use the relevant part of the script
 
 ## Checkout
 
 - [Telegram](https://telegram.org/)
+-  https://codeberg.org/thirtysix/walogram/src/branch/master/walogram
